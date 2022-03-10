@@ -25,10 +25,24 @@ public class KeywordsAndExpression {
         //Steatements
         //The statement can be the entire line in the part of the code. Expressions are part of statements.
         //Examples
+        //Statements can span multiple lilnes
+
         int myScore = 50;// This entire line makes a statement.
         myScore++;
         myScore--;
-        System.out.println("This will print the entire line");//Again these also make statements.
+        System.out.println("This will print the entire line");
+
+        //Statements can span multiple lilnes
+        System.out.println("This is multi line" +
+                " stateent" +
+                " extension");
+
+        //multiple Statements can be in the same line with a proper separator
+        int myValue = 50; int anotherValue = 53;System.out.println("Multiple statements in single line");//Here the statements are separated by ";"
+
+
+
+
 
 
 
