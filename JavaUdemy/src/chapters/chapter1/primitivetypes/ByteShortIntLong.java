@@ -9,6 +9,7 @@ public class ByteShortIntLong {
             int integerMinValue = Integer.MIN_VALUE;
             int integerMaxValue = Integer.MAX_VALUE;
 
+
             System.out.println("Min value of Integer type is :" + integerMinValue); //Min value of Integer is :-2147483648
             System.out.println("Max Value of Integer type is :" + integerMaxValue); //Max Value of Integer is :21474836471
 
